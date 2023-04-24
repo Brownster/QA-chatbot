@@ -22,7 +22,7 @@ from tkinter import messagebox
 
 kb_db = None
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'sk-'
 
 def extract_links(url, level=1, max_level=1):
     """
